@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<div style="border: solid #006699 2px;">
+    <div style="width: 100; margin-bottom: 2px;  border: solid 0.5px #006699	;	background-color: #006699	;	color: white;"><h2>giải phương trình bậc 2</h2>		</div>
+    <div style="margin-top: 20px;margin-bottom: 20px;">
+	<button style="background-color: #00BB00	;color: white;margin-left: 20px;" type="button" onclick="nhapX()"><h3 style="margin-left: 10px;margin-right: 10px;">Nhập X</h3></button>
+	<button style="background-color: #00BB00	;color: white;margin-left: 20px;"type="button" onclick="nhapY()"><h3 style="margin-left: 10px;margin-right: 10px;">Nhập Y</h3></button>
+	<button style="background-color: #00BB00	;color: white;margin-left: 20px;"type="button" onclick="tinhTong()"><h3 style="margin-left: 10px;margin-right: 10px;">Kết Quả</h3></button>
+    </div>
+
+<script type="text/javascript">
+	
+
+	var x, y, s
+	function nhapX() {
+		x = parseFloat(prompt('Nhap x'))
+		console.log(x)
+	}
+	function nhapY() {
+		y = parseFloat(prompt('Nhap y'))
+		console.log(y)
+	}
+	function tinhTong() {
+		s = x + y 
+		alert('s = ' + s)
+	}
+	</script>	
+    </div>
+</body>
+</html>
